@@ -22,7 +22,8 @@ They are described in detail in section :doc:`settings`.
 
 Don't forget to run::
 
-    $ python manage.py syncdb
+    $ python manage.py makemigrations
+    $ python manage.py migrate
 
 
 If you are going to use South migrations please read section :doc:`south`.
